@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lovejoy777.rommate" >
+
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_ALL_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_MEDIA_STORAGE"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Base.Theme.Toolbar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bootanimation.Screen1BootAnim"
+            android:label="BootAnimation"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN1BOOTANIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bootanimation.FreeBootAnim"
+            android:label="Free"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.FREEBOOTANIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bootanimation.DonateBootAnim"
+            android:label="Donate"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.DONATEBOOTANIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".fonts.Screen1Fonts"
+            android:label="Fonts"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN1FONTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".fonts.FreeFonts"
+            android:label="Free"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.FREEFONTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".fonts.DonateFonts"
+            android:label="Donate"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.DONATEFONTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bootanimation.DetailBootAnim"
+            android:label="Download"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOADBOOTANIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".fonts.DetailFonts"
+            android:label="Download"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOADFONTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bootanimation.InstallBootAnim"
+            android:label="Boot Animation"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.INSTALLBOOTANIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".fonts.InstallFonts"
+            android:label="Fonts"
+            android:theme="@style/Toolbar2" >
+            <intent-filter>
+                <action android:name="android.intent.action.INSTALLFONTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Settings"
+            android:label="Settings"
+            android:theme="@style/Toolbar2"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+    </application>
+
+</manifest>

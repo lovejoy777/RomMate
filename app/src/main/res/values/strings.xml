@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">RomMate</string>
+
+    <!-- MAIN SCREEN CARD TEXT -->
+    <string name="layersthemestitle">Layers Themes</string>
+    <string name="card1header">Boot Animations</string>
+    <string name="card1">Click to list all Boot Animations</string>
+    <string name="card2header">Fonts</string>
+    <string name="card2">Click to list all fonts</string>
+    <string name="card3header">Layers Manager</string>
+    <string name="card3">Click to launch Layers Manager</string>
+
+
+    <!-- BOOTANIM MAIN SCREEN CARD TEXT -->
+    <string name="bootcard1header">Free Boot Animations</string>
+    <string name="bootcard1">Click to list all free Boot Animations</string>
+    <string name="bootcard2header">Donate Boot Animations</string>
+    <string name="bootcard2">Click to list all donate boot animations</string>
+    <string name="bootcard3header">Install Boot Animation</string>
+    <string name="bootcard3">Click to choose a boot animation</string>
+    <string name="bootcard4header">Restore Boot Animation</string>
+    <string name="bootcard4">Click to restore your saved backup</string>
+
+    <!-- FONTS MAIN SCREEN CARD TEXT -->
+    <string name="fontscard1header">Free Fonts</string>
+    <string name="fontscard1">Click to list all free fonts</string>
+    <string name="fontscard2header">Donate Fonts</string>
+    <string name="fontscard2">Click to list all donate fonts</string>
+    <string name="fontscard3header">Install Fonts</string>
+    <string name="fontscard3">Click to choose a fonts</string>
+    <string name="fontscard4header">Restore Fonts</string>
+    <string name="fontscard4">Click to restore your saved backup</string>
+
+
+
+    <string name="description">Description</string>
+    <string name="error">Error</string>
+    <string name="developer">Developer</string>
+    <string name="testdeveloper">TestDeveloper</string>
+    <string name="googlepluspost">Google+ Post</string>
+    <string name="gettheme">Get Theme</string>
+    <string name="version">Version</string>
+    <string name="author">Author</string>
+    <string name="layerstheme">Layers Theme</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="deleteall">Delete all</string>
+    <string name="name">Enter Name</string>
+
+    <!-- FILEPICKER -->
+    <string name="new_folder">New folder</string>
+    <string name="create_folder_error">Failed to create folder</string>
+    <string name="select_something_first">Nothing Selected</string>
+    <string name="InstallOverlays2">Install Overlays</string>
+    <string name="UninstallOverlays">Uninstall Overlays</string>
+    <string name="BackupOverlays">Backup Overlays</string>
+    <string name="RestoreOverlays">Restore Backups</string>
+    <string name="More">More</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="About">About</string>
+    <string name="Showcase">Layers Showcase</string>
+
+    <plurals
+        name="select_dir">
+        <item quantity="one">Select directory</item>
+        <item quantity="other">Select directories</item>
+    </plurals>
+
+    <plurals
+        name="select_file">
+        <item quantity="one">Select Layers</item>
+        <item quantity="other">Select files</item>
+    </plurals>
+
+    <plurals
+        name="select_dir_or_file">
+        <item quantity="one">Select directory or file</item>
+        <item quantity="other">Select directories or files</item>
+    </plurals>
+</resources>
