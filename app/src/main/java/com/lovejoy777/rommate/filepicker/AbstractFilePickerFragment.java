@@ -141,7 +141,7 @@ public abstract class AbstractFilePickerFragment<T> extends ListFragment
 
 
 
-        if (getFullPath(currentPath).contains("/vendor/overlay")) {
+        if (getFullPath(currentPath).contains("/sdcard/Download")) {
 
             mySwitch1.setVisibility(View.VISIBLE);
 
@@ -167,7 +167,7 @@ public abstract class AbstractFilePickerFragment<T> extends ListFragment
                                 return;
                             }
 
-                           deleteallcommand();
+                        //   deleteallcommand();
 
                             return;
                         }

@@ -29,7 +29,7 @@ import java.util.concurrent.TimeoutException;
  */
 public class Screen1BootAnim extends AppCompatActivity {
 
-    final String startDirInstall = Environment.getExternalStorageDirectory() +  "/Download";
+    final String startDirInstall = Environment.getExternalStorageDirectory() + "";
     private static final int CODE_SD = 0;
     private static final int CODE_DB = 1;
     CardView card1, card2, card3, card4;
